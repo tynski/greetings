@@ -7,7 +7,7 @@ import (
 
 // Hello returns a greetings for the named person.
 
-func Hello(name string) string {
+func Hello(name string) string, error {
 	// If no name was given, return an error with a message.
 	if name == "" {
 		return "", errors.New("epmty name")
