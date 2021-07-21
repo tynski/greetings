@@ -12,7 +12,7 @@ import (
 func Hello(name string) (string, error) {
 	// If no name was given, return an error with a message.
 	if name == "" {
-		return "", errors.New("epmty name")
+		return "", errors.New("empty name")
 	}
 
 	// If a name was reveived, return a value that embeds the name in a message.
